@@ -131,7 +131,8 @@ $(document).ready(function(){
     $('.kashi').show(1000);
     $('.kashi').css("z-index","10");
     $('.kashi').animate({
-      'bottom':'50px'
+      'bottom':'50px',
+      'left':'180px'
     });
   });
   
