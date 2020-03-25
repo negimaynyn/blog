@@ -77,7 +77,7 @@ body{
   border-left: dashed 2px rgb(251, 255, 0);
   padding: 15px 5px 5px;
 }
-p{
+a{
   color: black;
 }
 #con{
@@ -128,9 +128,9 @@ $(document).ready(function(){
       'left':'300px'//conを右に移動
       
     });
-    $('.kashi').show(1000);//歌詞を表示
-    $('.kashi').css("z-index","10");//歌詞を背面に
-    $('.kashi').animate({//歌詞を上に移動
+    $('.kashi').show(1000);
+    $('.kashi').css("z-index","10");
+    $('.kashi').animate({
       'bottom':'50px'
     });
   });
